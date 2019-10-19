@@ -1,6 +1,6 @@
 from sklearn.neighbors import KNeighborsRegressor
-from sklearn.experimental import enable_iterative_imputer
 from sklearn.ensemble import RandomForestRegressor, ExtraTreesRegressor
+from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import IterativeImputer
 
 class NaiveImputer():
